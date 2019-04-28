@@ -2,22 +2,23 @@ FROM alpine
 
 RUN apk add --update --virtual build-dependencies \
   build-base \
-  git \
   curl \
   faad2 \
-  freetype \
   flac \
+  freetype \
+  git \
   libjpeg-turbo \
-  libogg \
-  libvorbis \
   libmad \
   libmpeg2 \
-  libtheora \
+  libogg \
   libpng \
+  libtheora \
+  libvorbis \
   nasm \
   readline \
   sdl2 \
   sdl2-dev \
+  vorbis-tools \
   zlib \
   zlib-dev \
   && true
