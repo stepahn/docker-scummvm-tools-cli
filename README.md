@@ -2,4 +2,4 @@
 
 quick and dirty scummvm-tools-cli for docker
 
-`docker run --rm -ti scummvm-tools-cli -v "${PWD}":/data`
+`docker run --rm -ti -v "${PWD}":/data stepahn/scummvm-tools-cli`
